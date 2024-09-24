@@ -2,6 +2,7 @@
 > *Named after one of the old kings of the Mindtech Institute, A'as Forest is a lush and bountiful woods at the south of the faction that is considered as an ancient and the oldest place in the faction.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/aas_forest.html>)
+
 ### Landmarks
 - `🌿 Photosynthetic Power Station` ([lore](<https://zeithalt.github.io//r/photosynthetic_power_station.html>))
 - `🌺 Underground Botanical Garden` ([lore](<https://zeithalt.github.io//r/botanical_garden.html>))

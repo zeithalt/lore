@@ -2,6 +2,7 @@
 > *The beautiful lands of the north-east, with many hills, fields, and windmills that brings a fresh feel to anyone who visits.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/synaxos_fields.html>)
+
 ### Landmarks
 - `🗼 Lime Tower` ([lore](<https://zeithalt.github.io//r/lime_tower.html>))
 - `🎏 Weather Tower Relay` ([lore](<https://zeithalt.github.io//r/weather_tower_relay.html>))

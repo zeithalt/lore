@@ -1,5 +1,6 @@
 ## Peace Death Gorge
 > No in-lore description available for this land.
+
 ### Landmarks
 - `🌋 Volcano Influeno` ([lore](<https://zeithalt.github.io//r/volcano_influeno.html>))
 - `🦖 Jurassic Park` ([lore](<https://zeithalt.github.io//r/jurassic_park.html>))

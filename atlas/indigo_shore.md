@@ -2,6 +2,7 @@
 > *Indigo Shore is located on the western coastline of Zeithalt Island. There are monolithic, rocky shorelines that become popular sightseeing holiday spots. The strange blue tint of the waters along them is what gives the region its name.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/indigo_shore.html>)
+
 ### Landmarks
 - `🦆 Duck Farm` ([lore](<https://zeithalt.github.io//r/duck_farm.html>))
 - `🪩 Sacred Sphere` ([lore](<https://zeithalt.github.io//r/sacred_sphere.html>))

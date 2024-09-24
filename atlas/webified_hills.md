@@ -2,6 +2,7 @@
 > *Webified Hills is a sprawling expanse of undulating terrain that serves as the central hub connecting all regions of [Cybernetics Inc](<https://zeithalt.github.io/r/cybernetics_inc.html>) territory. Located at the heart of the territory, these hills exemplify the interconnected nature of the digital world, where data flows freely and connectivity is paramount.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/webified_hills.html>)
+
 ### Landmarks
 - `🕸️ K2 Fibers` ([lore](<https://zeithalt.github.io//r/k2_fibers.html>))
 - `💿️ Gaia Knowledge Database` ([lore](<https://zeithalt.github.io//r/gaia_knowledge_db.html>))

@@ -1,5 +1,6 @@
 ## Blue Screen Lagoon
 > No in-lore description available for this land.
+
 ### Landmarks
 - `⚗️ Bioengineered Algae Farm` ([lore](<https://zeithalt.github.io//r/algae_farm.html>))
 - `🐬 Oceanarium` ([lore](<https://zeithalt.github.io//r/oceanarium.html>))

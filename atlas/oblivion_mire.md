@@ -2,6 +2,7 @@
 > *The bridge to the western lands, Oblivion Mire is mostly uninhabited due to some natural phenomena that poisons the earth, the surrounding waters, and even the living.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/oblivion_mire.html>)
+
 ### Landmarks
 - `🎊 Jackbox Party Central` ([lore](<https://zeithalt.github.io//r/jackbox_party_central.html>))
 - `💬 Deltan Language School` ([lore](<https://zeithalt.github.io//r/deltan_language_school.html>))

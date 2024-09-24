@@ -2,6 +2,7 @@
 > *Brickland Fortress is a harsh, mostly mountainous region acting as a buffer between the lands of the east and west.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/brickland_fortress.html>)
+
 ### Landmarks
 - `🔬 Modern CR Research Facility` ([lore](<https://zeithalt.github.io//r/modern_cr_research_facility.html>))
 - `🍕 PIZZA` ([lore](<https://zeithalt.github.io//r/pizza.html>))

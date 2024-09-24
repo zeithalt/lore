@@ -2,6 +2,7 @@
 > *The land which ties the all of Mindtech Institute together, found at the middle of the faction, Paradox Pass is famous for being the "Backbone of the Mindtech Institute" with all of its roads that connects the regions with each other.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/paradox_pass.html>)
+
 ### Landmarks
 - `🦁 Zeithalt Pet Zoo and Animal Shelter` ([lore](<https://zeithalt.github.io//r/animal_shelter.html>))
 - `🛣️ Axonite Road` ([lore](<https://zeithalt.github.io//r/axonite_road.html>))

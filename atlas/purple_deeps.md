@@ -4,6 +4,7 @@
 > *This city is the embodiment of chaos, there is no clear division into social classes and types. Surprisingly, the city of chaos is quite harmonious, because the **Security Department** monitors compliance with the norms, and violators are punished very strictly.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/purple_deeps.html>)
+
 ### Landmarks
 - `🏴‍☠️ Pirate Harbor` ([lore](<https://zeithalt.github.io//r/pirate_harbor.html>))
 - `🗼 Zikkurat` ([lore](<https://zeithalt.github.io//r/zikkurat.html>))

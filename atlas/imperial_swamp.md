@@ -2,6 +2,7 @@
 `⭐ Capital of Band of Brothers`
  
 > No in-lore description available for this land.
+
 ### Landmarks
 - `🚰 Water Filtering Station` ([lore](<https://zeithalt.github.io//r/water_filtering_station.html>))
 - `🤿 Diving School` ([lore](<https://zeithalt.github.io//r/diving_school.html>))

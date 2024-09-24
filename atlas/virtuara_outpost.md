@@ -1,5 +1,6 @@
 ## Virtuara Outpost
 > No in-lore description available for this land.
+
 ### Landmarks
 - `⚙️ Underwater Turbine Power Plant` ([lore](<https://zeithalt.github.io//r/underwater_power_plant.html>))
 - `🏢 Fighters Guild, CI Branch` ([lore](<https://zeithalt.github.io//r/fighters_guild_ci_branch.html>))

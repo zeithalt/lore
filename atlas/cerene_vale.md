@@ -4,6 +4,7 @@
 > *Lush valleys in the east and southern regions, while mostly barren sands in the north. The region of Cerene Vale holds great beauty and elegance while keeping in touch with the newest of innovations. It is also the farthest region among the faction, placed at the south-west, and has many people plus a popularity for tourism.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/cerene_vale.html>)
+
 ### Landmarks
 - `💰 PTSD Office` ([lore](<https://zeithalt.github.io//r/ptsd_office.html>))
 - `🥚 Egg Festival` ([lore](<https://zeithalt.github.io//r/egg_festival.html>))

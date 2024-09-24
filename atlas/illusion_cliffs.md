@@ -2,6 +2,7 @@
 > *A place so mystical you wouldn't believe it's real, Illusion Cliffs yields many beautiful beaches and wonderous caves that made it a popular tourism spot amongst people and is situated at the south-eastern part of the faction.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/illusion_cliffs.html>)
+
 ### Landmarks
 - `🛰 Quantum Nexus Laboratory` ([lore](<https://zeithalt.github.io//r/quantum_nexus_lab.html>))
 - `📚 Archives of Subconsciousness` ([lore](<https://zeithalt.github.io//r/archives_of_subcon.html>))
