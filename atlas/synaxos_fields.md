@@ -1,6 +1,7 @@
 ## Synaxos Fields
-
-*The beautiful lands of the north-east, with many hills, fields, and windmills that brings a fresh feel to anyone who visits.*
+> *The beautiful lands of the north-east, with many hills, fields, and windmills that brings a fresh feel to anyone who visits.*  
+>  
+> [full lore entry](<https://zeithalt.github.io//r/synaxos_fields.html>)
 ### Landmarks
 - `🗼 Lime Tower` ([lore](<https://zeithalt.github.io//r/lime_tower.html>))
 - `🎏 Weather Tower Relay` ([lore](<https://zeithalt.github.io//r/weather_tower_relay.html>))
@@ -13,4 +14,3 @@
 - `Eon 697 - The Corruption Outbreak in Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon0697>))
 - `Eon 778 - The 3rd Outbreak in Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon0778>))
 - `Eon 932 - The 4th Outbreak in Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon0932>))
-[full lore entry](<https://zeithalt.github.io//r/synaxos_fields.html>)

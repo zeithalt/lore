@@ -1,6 +1,5 @@
 ## Peace Death Gorge
-
-*You can write or request lore [on discord](<https://discord.com/channels/562910943848169472/1173922660489633802>)*
+> No in-lore description available for this land.
 ### Landmarks
 - `🌋 Volcano Influeno` ([lore](<https://zeithalt.github.io//r/volcano_influeno.html>))
 - `🦖 Jurassic Park` ([lore](<https://zeithalt.github.io//r/jurassic_park.html>))
@@ -15,4 +14,3 @@
 - `Eon 864 - The Victory of Peace Death Gorge` ([timeline](<https://zeithalt.github.io//t/#eon0864>))
 - `Eon 914 - Resourceful Battle over Peace Death Gorge` ([timeline](<https://zeithalt.github.io//t/#eon0914>))
 - `Eon 1007 - Futile Battle at Peace Death Gorge` ([timeline](<https://zeithalt.github.io//t/#eon1007>))
-[full lore entry](<https://zeithalt.github.io//r/peace_death_gorge.html>)

@@ -1,7 +1,9 @@
 ## Timeless Desert
 `⭐ Capital of Cloudy Operatives`
-
-*A vast ocean filled with nothing but sand, for miles and miles, without anything in sight other than the arid wastes of the desert itself.*
+ 
+> *A vast ocean filled with nothing but sand, for miles and miles, without anything in sight other than the arid wastes of the desert itself.*  
+>  
+> [full lore entry](<https://zeithalt.github.io//r/timeless_desert.html>)
 ### Landmarks
 - `🎡 Particle Collitionist` ([lore](<https://zeithalt.github.io//r/partcile_collitionist.html>))
 - `☁️ Cloudy Data Center` ([lore](<https://zeithalt.github.io//r/cloudy_co_datacenter.html>))
@@ -17,4 +19,4 @@
 - `Eon 506 - Rebellion in the Desert` ([timeline](<https://zeithalt.github.io//t/#eon0506>))
 - `Eon 656 - The Sabotage in the Desert` ([timeline](<https://zeithalt.github.io//t/#eon0656>))
 - `Eon 723 - 2nd Sabotage in the Desert` ([timeline](<https://zeithalt.github.io//t/#eon0723>))
-[image](https://zeithalt.github.io/r/i/corrupted_desert.png)  -  [full lore entry](<https://zeithalt.github.io//r/timeless_desert.html>)
+![image](https://zeithalt.github.io/r/i/corrupted_desert.png)

@@ -1,6 +1,5 @@
 ## Mt. Pickles
-
-*You can write or request lore [on discord](<https://discord.com/channels/562910943848169472/1173922660489633802>)*
+> No in-lore description available for this land.
 ### Landmarks
 - `⛽️ Pickled Ooblek Deli` ([lore](<https://zeithalt.github.io//r/pickled_ooblek_deli.html>))
 - `🥒 Pierre's Porous Pickle Porch` ([lore](<https://zeithalt.github.io//r/pppp.html>))
@@ -16,4 +15,3 @@
 - `Eon 636 - The Peculiar Battle of Mt. Pickles` ([timeline](<https://zeithalt.github.io//t/#eon0636>))
 - `Eon 740 - The Battle Of Corrupted Mountain` ([timeline](<https://zeithalt.github.io//t/#eon0740>))
 - `Eon 955 - Frustrating Battle of Mt. Pickles` ([timeline](<https://zeithalt.github.io//t/#eon0955>))
-[full lore entry](<https://zeithalt.github.io//r/mt_pickles.html>)
