@@ -88,32 +88,24 @@ Some of these features may be implemented if I get enough development in-between
 - sea attacks are not possible until later updates;
 - we’re playing in the context of a [bigger map](<https://zeithalt.github.io/t/#index>), but the “play area” is only one region - this means tiles along the borders with other regions will always be possible to attack by that faction;
 
-
-- <details>
-    <summary>Example 1</summary>
-  
-  > - BB attacks CI in Cybertron Jungle;
-  > - All tiles outside Cybertron Jungle are not attackable and cannot change ownership;
-  > - Cybertron Jungle tiles along the green border have an outside connection to other CI lands, so CI can always attack them (except cooldown);
-  > - Cybertron Jungle tiles along the pink border have an outside connection to another BB land, so BB can always attack them (except cooldown).
-    > ![example1](https://zeithalt.github.io/lore/i//global_map_example1.png)
-</details>
+> ### Example 1
+> - BB attacks CI in Cybertron Jungle;
+> - All tiles outside Cybertron Jungle are not attackable and cannot change ownership;
+> - Cybertron Jungle tiles along the green border have an outside connection to other CI lands, so CI can always attack them (except cooldown);
+> - Cybertron Jungle tiles along the pink border have an outside connection to another BB land, so BB can always attack them (except cooldown).
+> ![example1](https://zeithalt.github.io/lore/i//global_map_example1.png)
 
 - the battle is in general 1 vs 1 (attacking vs defending faction);
 - however, if a faction has an outside connection to the “play area”, they can play against both the attacker and the defender by declaring war on them during the battle;
 
-
-- <details>
-  <summary>Example 2</summary>
-
-  > - DC attacks PS in Mt. Pickles
-  > - DC progresses quickly and captures the majority of PS lands;
-  > - But PS is in a pickle - they have only one tile to counter-attack if they quickly lose it all;
-  > - In this situation, CI may open a new front against DC by invading Mt. Pickles from the east;
-  > - CO too can join the battle directly, however, both MT and BB do not have a connection to the “play area” so their only options is supporting others according to global map diplomacy rules.  
-  > 
-  > ![example2](https://zeithalt.github.io/lore/i//global_map_example2.png)
-</details> 
+> ### Example 2
+> - DC attacks PS in Mt. Pickles
+> - DC progresses quickly and captures the majority of PS lands;
+> - But PS is in a pickle - they have only one tile to counter-attack if they quickly lose it all;
+> - In this situation, CI may open a new front against DC by invading Mt. Pickles from the east;
+> - CO too can join the battle directly, however, both MT and BB do not have a connection to the “play area” so their only options is supporting others according to global map diplomacy rules.  
+> 
+> ![example2](https://zeithalt.github.io/lore/i//global_map_example2.png)
 
 During this experiment, the Global Map battles happen in the context of the _Factions Game_ and within its fictional world called _Zeithalt Island_.
 
