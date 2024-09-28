@@ -33,6 +33,7 @@ There's also one more playable team: [Fighters Guild](<https://zeithalt.github.i
 Every faction's turn consists of four phases:
 
 - ### Decision - up to 3 eons
+  - it may end early when the decision is made; 
   - during this time, the faction needs to **confirm that they’re not skipping their turn**;  
   - if the deadline is missed - it’s an auto-skip, GM passes the turn to the next faction; 
   - this decision is announced at the end of the current eon, after which either the _preparation_ phase starts, or the faction skips their turn;
@@ -43,12 +44,14 @@ Every faction's turn consists of four phases:
   - during this time, the faction has to choose their attack target and prepare for the battle.
 
 - ### Attack window - up to 3 days
+  - it may end early when the attack is initiated;
   - during this time, the faction may start their attack at any minute;
   - this can be done via discord's /gm_start_attack command by any key member;
   - a faction can only attack adjacent lands, 
   - if the deadline is missed - GM initiates the battle for them with a  disadvantage.;  
    
 - ### Battle time - 3 days
+  - battle ends on timer;
   - during this time, we play a global map battle in Influence;
   - it has its own big set of rules, key ones are listed below.
 
@@ -70,7 +73,7 @@ Only attacker and defender will get bonuses from these actions, other teams will
 
 There will be ***no feature parity*** with the current Factions Game during this experiment.
 
-This means sell-swording might be limited, no payments from BoZ for hits in battle, RES cannot be used, Hall of Fame would not be updated, weapons won't have an effect and so on.
+This means sell-swording might be limited, no payments from [Bank of Zeithalt](<https://zeithalt.github.io/r/bank_of_zeithalt.html>) for hits in battle, [Resources](<https://zeithalt.github.io/rules/#rules_16_resources>) cannot be used, Hall of Fame would not be updated, weapons won't have an effect and so on.
 
 Some of these features may be implemented if I get enough development in-between battles during the cycle.
 
@@ -99,6 +102,7 @@ Some of these features may be implemented if I get enough development in-between
 - the battle is in general 1 vs 1 (attacking vs defending faction);
 - however, if a faction has an outside connection to the “play area”, they can play against both the attacker and the defender by declaring war on them during the battle;
 
+
 - <details>
   <summary>Example 2</summary>
 
@@ -111,11 +115,12 @@ Some of these features may be implemented if I get enough development in-between
   > ![example2](https://zeithalt.github.io/lore/i//global_map_example2.png)
 </details> 
 
-
-
 During this experiment, the Global Map battles happen in the context of the _Factions Game_ and within its fictional world called _Zeithalt Island_.
 
-To learn more about it, you might want to check out the [Zeithalt Lore Guide](./guidebook.html), [Mimbot Lore Database](<https://zeithalt.github.io/r/index.html>) or just ask questions on our [discord server](<https://discord.com/channels/562910943848169472/995639554042249246>).
+To learn more about it, you might want to check out these links:
+- [Zeithalt Lore Guide](./guidebook.html) and [Mimbot Lore Database](<https://zeithalt.github.io/r/index.html>) can help you get acquainted with the lore;
+- [Zeithalt Timeline](<https://zeithalt.github.io/t/#index>) holds the 2-year history of the world; 
+- or you may ask questions on our [discord server](<https://discord.com/channels/562910943848169472/995639554042249246>).
 
 -----
 *This is the updatable draft of the rules - please ask questions and suggest changes [on discord](<https://discord.com/channels/562910943848169472/1284126907008417833>).*
