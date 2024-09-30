@@ -1,5 +1,7 @@
 ## Mt. Pickles
-> No in-lore description available for this land.
+> *The region of Mt. Pickles is a harsh, generally cold region located in the central-western part of the island. It is surrounded by different regions on all sides and thus, landlocked.*  
+>  
+> [full lore entry](<https://zeithalt.github.io//r/mt_pickles.html>)
 
 ### Landmarks
 - `⛽️ Pickled Ooblek Deli` ([lore](<https://zeithalt.github.io//r/pickled_ooblek_deli.html>))
@@ -16,3 +18,4 @@
 - `Eon 636 - The Peculiar Battle of Mt. Pickles` ([timeline](<https://zeithalt.github.io//t/#eon0636>))
 - `Eon 740 - The Battle Of Corrupted Mountain` ([timeline](<https://zeithalt.github.io//t/#eon0740>))
 - `Eon 955 - Frustrating Battle of Mt. Pickles` ([timeline](<https://zeithalt.github.io//t/#eon0955>))
+![image](https://zeithalt.github.io/r/i/mt_pickles.png)
