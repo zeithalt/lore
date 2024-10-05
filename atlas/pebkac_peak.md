@@ -1,5 +1,7 @@
 ## PEBKAC Peak
-> No in-lore description available for this land.
+> *PEBKAC Peak is a region of unparalleled beauty and technological wonder nestled in the southern reaches of Cybernetics Inc territory. Named in jest for the common tech troubleshooting acronym, PEBKAC (Problem Exists Between Keyboard And Chair), this area embodies the resilience and adaptability of both nature and technology.*  
+>  
+> [full lore entry](<https://zeithalt.github.io//r/pebkac_peak.html>)
 
 ### Landmarks
 - `🫖 Tea Emporium` ([lore](<https://zeithalt.github.io//r/tea_emporium.html>))
