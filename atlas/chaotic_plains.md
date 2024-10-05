@@ -12,4 +12,4 @@
 - `Eon 856 - The Foolish Battle of Chaotic Plains` ([timeline](<https://zeithalt.github.io//t/#eon0856>))
 - `Eon 874 - The Daring Battle of Chaotic Plains` ([timeline](<https://zeithalt.github.io//t/#eon0874>))
 - `Eon 1023 - The Explosive Battle of Chaotic Plains` ([timeline](<https://zeithalt.github.io//t/#eon1023>))
-- `Eon 1044 - The Victorious Battle of Chaotic Plains` ([timeline](<https://zeithalt.github.io//t/#eon1044>))
+- `Eon 1044 - The Influential Battle of Chaotic Plains` ([timeline](<https://zeithalt.github.io//t/#eon1044>))
