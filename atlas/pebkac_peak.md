@@ -10,3 +10,4 @@
 ### Battles (2)
 - `Eon 469 - The Corrupted Battle of PEBKAC Peak` ([timeline](<https://zeithalt.github.io//t/#eon0469>))
 - `Eon 893 - The Blunder on PEBKAC Peak` ([timeline](<https://zeithalt.github.io//t/#eon0893>))
+![image](https://zeithalt.github.io/r/i/pebkac_peak.png)
