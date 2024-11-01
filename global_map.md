@@ -50,7 +50,7 @@ Every faction's turn consists of four phases:
   - a faction can only attack adjacent lands, 
   - if the deadline is missed - GM initiates the battle for them with a  disadvantage.;  
    
-- ### Battle time - 2 days
+- ### Battle time - 3 days
   - battle ends on timer;
   - during this time, we play a global map battle in Influence;
   - it has its own big set of rules, key ones are listed below.
@@ -78,12 +78,11 @@ This means sell-swording might be limited, no payments from [Bank of Zeithalt](<
 Some of these features may be implemented if I get enough development in-between battles during the cycle.
 
 ## Key Global Map rules
-- a battle lasts **48** full cycles;
+- a battle lasts **72** full cycles;
 - one battle cycle lasts **1h;** 
 - to capture a tile - win **1 cycle** on it;
-- cooldown for attacking captured tiles again is **2 cycles**;
+- cooldown for attacking captured tiles again is **3 cycles**;
 - you can only attack adjacent tiles, no air/coastal landing rules;
-- you cannot start new attacks with **30 minutes or less** left in the cycle; 
 - "attacking early in the cycle" and big team bonuses are **disabled**;
 - adjacency bonuses are **active**;
 - sea attacks are not possible until later updates;
