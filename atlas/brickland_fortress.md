@@ -9,6 +9,7 @@
 - `🏥 CURE` ([lore](<https://zeithalt.github.io//r/cure.html>))
 - `🌇 Timeless Town` ([lore](<https://zeithalt.github.io//r/timeless_town.html>))
 - `💃 The Bada Bing!` ([lore](<https://zeithalt.github.io//r/bada_bing.html>))
+- `🪦 The Grand Memorial` ([lore](<https://zeithalt.github.io//r/the_grand_memorial.html>))
 ### Battles (5)
 - `Eon 280 - Battle of Brickland Fortress` ([timeline](<https://zeithalt.github.io//t/#eon0280>))
 - `Eon 306 - The Boring Battle` ([timeline](<https://zeithalt.github.io//t/#eon0306>))
