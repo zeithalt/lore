@@ -6,6 +6,7 @@
 - `🧜‍♀️ Siren's Lighthouse` ([lore](<https://zeithalt.github.io//r/sirens_lighthouse.html>))
 - `👻️ Valley of the Lost Spirits` ([lore](<https://zeithalt.github.io//r/valley_of_the_lost_spirits.html>))
 - `🚽️ Public Toilet` ([lore](<https://zeithalt.github.io//r/public_toilet.html>))
+- `🗽️ Statue of INK` ([lore](<https://zeithalt.github.io//r/statue_of_ink.html>))
 ### Battles (7)
 - `Eon 266 - Battle of Dev Null Marsh` ([timeline](<https://zeithalt.github.io//t/#eon0266>))
 - `Eon 321 - The Long Battle of Dev Null Marsh` ([timeline](<https://zeithalt.github.io//t/#eon0321>))

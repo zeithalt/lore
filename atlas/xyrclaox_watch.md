@@ -9,5 +9,6 @@
 - `🗼 Watchtower Ruins` ([lore](<https://zeithalt.github.io//r/watchtower_ruins.html>))
 - `⚓ Proprioceptic Shipyard` ([lore](<https://zeithalt.github.io//r/proprioceptic_shipyard.html>))
 - `🌫️ Uncanny Valley` ([lore](<https://zeithalt.github.io//r/uncanny_valley.html>))
-### Battles (1)
+### Battles (2)
 - `Eon 479 - The Crawling Battle of Xyrclaox Watch` ([timeline](<https://zeithalt.github.io//t/#eon0479>))
+- `Eon 1131 - A Close Call in Xyrclaox Watch` ([timeline](<https://zeithalt.github.io//t/#eon1131>))
