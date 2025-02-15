@@ -9,6 +9,7 @@
 - `🗺️️ The WebePorter` ([lore](<https://zeithalt.github.io//r/the_webeporter.html>))
 - `🔋️️ Quantum Generator` ([lore](<https://zeithalt.github.io//r/quantum_generator.html>))
 - `🕷️️️ The Queen's Lair` ([lore](<https://zeithalt.github.io//r/queens_lair.html>))
+- `👁️️️️ Omnituens Eye` ([lore](<https://zeithalt.github.io//r/omnituens_eye.html>))
 ### Battles (2)
 - `Eon 441 - The Lakeside Battle of Webified Hills` ([timeline](<https://zeithalt.github.io//t/#eon0441>))
 - `Eon 626 - The Enduring Defense of Webified Hills` ([timeline](<https://zeithalt.github.io//t/#eon0626>))

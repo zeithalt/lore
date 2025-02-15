@@ -11,6 +11,7 @@
 - `🗽 Statue of Mimb` ([lore](<https://zeithalt.github.io//r/statue_of_mimb.html>))
 - `🐟 Oceanic Discovery Center` ([lore](<https://zeithalt.github.io//r/oceanic_discovery_center.html>))
 - `📗 Herbarium Library` ([lore](<https://zeithalt.github.io//r/herbarium_library.html>))
+- `💉 Antibody Research Institute and Library` ([lore](<https://zeithalt.github.io//r/arial.html>))
 ### Battles (3)
 - `Eon 515 - The Sleepy Siege of Cerene Vale` ([timeline](<https://zeithalt.github.io//t/#eon0515>))
 - `Eon 545 - Military exercise in Cerene Vale` ([timeline](<https://zeithalt.github.io//t/#eon0545>))

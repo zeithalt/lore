@@ -12,6 +12,7 @@
 - `🌵 Sentient Cactus Reservation` ([lore](<https://zeithalt.github.io//r/sentient_cactus_reservation.html>))
 - `🏬 BoZ: Retailants and Supplitarium` ([lore](<https://zeithalt.github.io//r/boz_r_and_s.html>))
 - `🏠 Benastone` ([lore](<https://zeithalt.github.io//r/benastone.html>))
+- `🪺 The Nest` ([lore](<https://zeithalt.github.io//r/the_nest.html>))
 ### Battles (7)
 - `Eon 252 - Battle of Timeless Desert` ([timeline](<https://zeithalt.github.io//t/#eon0252>))
 - `Eon 272 - The 2nd Battle of Timeless Desert` ([timeline](<https://zeithalt.github.io//t/#eon0272>))

@@ -10,6 +10,7 @@
 - `🗼 Zikkurat` ([lore](<https://zeithalt.github.io//r/zikkurat.html>))
 - `🍺 Brewery` ([lore](<https://zeithalt.github.io//r/brewery.html>))
 - `🍥 Teleport` ([lore](<https://zeithalt.github.io//r/teleport.html>))
+- `🌀 Entropy Harmonizer` ([lore](<https://zeithalt.github.io//r/entropy_harmonizer.html>))
 ### Battles (4)
 - `Eon 611 - A Picnic near The Purple Deeps` ([timeline](<https://zeithalt.github.io//t/#eon0611>))
 - `Eon 997 - Failed Siege of Purple Deeps` ([timeline](<https://zeithalt.github.io//t/#eon0997>))
