@@ -6,7 +6,7 @@
 - `🦖 Jurassic Park` ([lore](<https://zeithalt.github.io//r/jurassic_park.html>))
 - `♨️ Volcanic Jacuzzi` ([lore](<https://zeithalt.github.io//r/volcanic_jacuzzi.html>))
 - `🧭 Cartographers Guild HQ` ([lore](<https://zeithalt.github.io//r/cartographers_guild_hq.html>))
-- `🏜️ Teremok of the Cactus Patron` ([lore](<https://zeithalt.github.io//r/teremok_of_the_cactus_patron.html>))
+- `🏜️ Teremok of Cactus Patron` ([lore](<https://zeithalt.github.io//r/teremok_of_cactus_patron.html>))
 ### Battles (12)
 - `Eon 451 - The Blitz Battle of Peace Death Gorge` ([timeline](<https://zeithalt.github.io//t/#eon0451>))
 - `Eon 582 - The Advance on Peace Death Gorge` ([timeline](<https://zeithalt.github.io//t/#eon0582>))
