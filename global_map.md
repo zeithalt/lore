@@ -68,7 +68,7 @@ There are currently six factions on the Island:
 
 The move order is determined by a random roll on our discord server at the beginning of each cycle.
 
-There's also one more playable team: [Fighters Guild](<https://zeithalt.github.io/r/fighters_guild.html>) to represent team-less people offering their services for gold, but they do have a land on the map and do not get a turn in the move order.
+There's also one more playable team: [Fighters Guild](<https://zeithalt.github.io/r/fighters_guild.html>) to represent team-less people offering their services for gold, but they not do have a land on the map and do not get a turn in the move order.
 
 ## Schedule
 
@@ -144,7 +144,7 @@ Only attacker and defender will get bonuses from these actions, other teams will
 > - DC attacks PS in Mt. Pickles
 > - DC progresses quickly and captures the majority of PS lands;
 > - But PS is in a pickle - they have only one tile to counter-attack if they quickly lose it all;
-> - In this situation, CI may open a new front against DC by invading Mt. Pickles from the east;
+> - In this situation, CI may open a new front against DC by invading Mt. Pickles from the west;
 > - CO too can join the battle directly; however, both MT and BB do not have a connection to the “play area” so their only options is supporting others according to global map diplomacy rules.  
 > 
 > ![example2](https://zeithalt.github.io/lore/i//global_map_example2.png)
