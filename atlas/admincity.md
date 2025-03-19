@@ -11,6 +11,7 @@
 - `👁️‍🗨️️️ Deltan Watchtower` ([lore](<https://zeithalt.github.io//r/deltan_watchtower.html>))
 - `💽️️️ The Central Nexus` ([lore](<https://zeithalt.github.io//r/central_nexus.html>))
 - `🏯️️️ Wall of Unity` ([lore](<https://zeithalt.github.io//r/wall_of_unity.html>))
+- `📚️️️ Underground Accounting` ([lore](<https://zeithalt.github.io//r/underground_accounting.html>))
 ### Battles (3)
 - `Eon 843 - The Fall of Admincity` ([timeline](<https://zeithalt.github.io//t/#eon0843>))
 - `Eon 884 - The Rise of Admincity` ([timeline](<https://zeithalt.github.io//t/#eon0884>))

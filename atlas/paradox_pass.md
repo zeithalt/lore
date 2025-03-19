@@ -9,6 +9,7 @@
 - `🎨️ Xiavente's Meme Workshop` ([lore](<https://zeithalt.github.io//r/meme_workshop.html>))
 - `🎌️ Hill of 1000 flags` ([lore](<https://zeithalt.github.io//r/hill_of_flags.html>))
 - `🍺️ Seven Roads Inn` ([lore](<https://zeithalt.github.io//r/seven_roads_inn.html>))
+- `🧭 Chrono-Compass Tower` ([lore](<https://zeithalt.github.io//r/chrono_compass_tower.html>))
 ### Battles (2)
 - `Eon 402 - The Night Battle of Paradox Pass` ([timeline](<https://zeithalt.github.io//t/#eon0402>))
 - `Eon 825 - A Near Miss at Paradox Pass` ([timeline](<https://zeithalt.github.io//t/#eon0825>))

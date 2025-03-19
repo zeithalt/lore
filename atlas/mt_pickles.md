@@ -7,7 +7,7 @@
 - `⛽️ Pickled Ooblek Deli` ([lore](<https://zeithalt.github.io//r/pickled_ooblek_deli.html>))
 - `🥒 Pierre's Porous Pickle Porch` ([lore](<https://zeithalt.github.io//r/pppp.html>))
 - `🔭 Ranger Network` ([lore](<https://zeithalt.github.io//r/ranger_network.html>))
-- `💨 Pickled Wind Farms` ([lore](<https://zeithalt.github.io//r/pickled_wind_farms.html>))
+- `💨 Pickled Wind Farms` ([lore](<https://zeithalt.github.io//r/pickled_wind_farm.html>))
 - `🌱 Seed Sanctuaries` ([lore](<https://zeithalt.github.io//r/seed_sanctuaries.html>))
 ### Battles (8)
 - `Eon 257 - Battle of Mt. Pickles` ([timeline](<https://zeithalt.github.io//t/#eon0257>))

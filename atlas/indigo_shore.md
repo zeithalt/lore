@@ -6,9 +6,11 @@
 ### Landmarks
 - `🦆 Duck Farm` ([lore](<https://zeithalt.github.io//r/duck_farm.html>))
 - `🪩 Sacred Sphere` ([lore](<https://zeithalt.github.io//r/sacred_sphere.html>))
-- `🏹 Giant Slingshot` ([lore](<https://zeithalt.github.io//r/giant_sling_shot.html>))
+- `🏹 Giant Slingshot` ([lore](<https://zeithalt.github.io//r/giant_slingshot.html>))
 - `🌌 Stellarium` ([lore](<https://zeithalt.github.io//r/stellarium.html>))
 - `🧼 Laundry N°131691` ([lore](<https://zeithalt.github.io//r/laundry_131691.html>))
+- `🏫 School of Spatial Magic` ([lore](<https://zeithalt.github.io//r/school_of_spatial_magic.html>))
+- `🦋 Azure Butterflies Continent` ([lore](<https://zeithalt.github.io//r/azure_butterflies_continent.html>))
 ### Battles (2)
 - `Eon 330 - The Confusing Battle of Indigo Shore` ([timeline](<https://zeithalt.github.io//t/#eon0330>))
 - `Eon 687 - The Crash Landing on Indigo Shore` ([timeline](<https://zeithalt.github.io//t/#eon0687>))

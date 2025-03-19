@@ -4,7 +4,7 @@
 ### Landmarks
 - `🦈 Void Shark Hatchery` ([lore](<https://zeithalt.github.io//r/void_shark_hatchery.html>))
 - `🧜‍♀️ Siren's Lighthouse` ([lore](<https://zeithalt.github.io//r/sirens_lighthouse.html>))
-- `👻️ Valley of the Lost Spirits` ([lore](<https://zeithalt.github.io//r/valley_of_the_lost_spirits.html>))
+- `👻️ Valley of the Lost Spirits` ([lore](<https://zeithalt.github.io//r/valley_of_lost_spirits.html>))
 - `🚽️ Public Toilet` ([lore](<https://zeithalt.github.io//r/public_toilet.html>))
 - `🗽️ Statue of INK` ([lore](<https://zeithalt.github.io//r/statue_of_ink.html>))
 - `🥩️ Brother's Meat Market` ([lore](<https://zeithalt.github.io//r/brothers_meat_market.html>))
