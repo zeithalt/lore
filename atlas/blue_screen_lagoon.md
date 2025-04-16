@@ -7,6 +7,7 @@
 - `🏄️ Serotonin Splash Park` ([lore](<https://zeithalt.github.io//r/serotonin_splash_park.html>))
 - `🌯️ Shawarmind Joint` ([lore](<https://zeithalt.github.io//r/shawarmind_joint.html>))
 - `🔇️ No-Echo Chamber` ([lore](<https://zeithalt.github.io//r/noecho_chamber.html>))
+- `🪶 MindTech Culture Center` ([lore](<https://zeithalt.github.io//r/mindtech_culture_center.html>))
 ### Battles (3)
 - `Eon 646 - The Unstable Battle of Blue Screen Lagoon` ([timeline](<https://zeithalt.github.io//t/#eon0646>))
 - `Eon 715 - The Unfriendly Battle of Blue Screen Lagoon` ([timeline](<https://zeithalt.github.io//t/#eon0715>))
