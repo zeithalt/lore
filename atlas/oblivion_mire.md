@@ -10,6 +10,7 @@
 - `🐸 Leaf Frog Sanctuary` ([lore](<https://zeithalt.github.io//r/leaf_frog_sanctuary.html>))
 - `🏮 Beacon for Perseverance` ([lore](<https://zeithalt.github.io//r/beacon_for_perseverance.html>))
 - `🥡? Valhalla Bar` ([lore](<https://zeithalt.github.io//r/valhalla_bar.html>))
+- `⚔️ Fighters Guild, PS Branch` ([lore](<https://zeithalt.github.io//r/fighters_guild_ps_branch.html>))
 ### Battles (4)
 - `Eon 491 - The Oblivious Battle on the Mire` ([timeline](<https://zeithalt.github.io//t/#eon0491>))
 - `Eon 536 - The Dark Night on the Mire` ([timeline](<https://zeithalt.github.io//t/#eon0536>))

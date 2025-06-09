@@ -9,6 +9,7 @@
 - `🔇️ No-Echo Chamber` ([lore](<https://zeithalt.github.io//r/noecho_chamber.html>))
 - `🪶 MindTech Culture Center` ([lore](<https://zeithalt.github.io//r/mindtech_culture_center.html>))
 - `📌 Sign: T was here` ([lore](<https://zeithalt.github.io//r/sign_t_was_here.html>))
+- `🗿 Tiki Bar` ([lore](<https://zeithalt.github.io//r/tiki_bar.html>))
 ### Battles (4)
 - `Eon 646 - The Unstable Battle of Blue Screen Lagoon` ([timeline](<https://zeithalt.github.io//t/#eon0646>))
 - `Eon 715 - The Unfriendly Battle of Blue Screen Lagoon` ([timeline](<https://zeithalt.github.io//t/#eon0715>))
