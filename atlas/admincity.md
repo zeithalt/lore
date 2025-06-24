@@ -1,4 +1,6 @@
 ## Admincity
+`⭐ Capital of Cybernetics Inc.`
+ 
 > *The bustling capital of [Cybernetics Inc](<https://zeithalt.github.io/r/cybernetics_inc.html>) territory, is a marvel of modernity and innovation. Located in the northern region of the territory, Admincity serves as the beating heart of technological advancement and societal progress.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/admincity.html>)

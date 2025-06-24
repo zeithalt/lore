@@ -11,6 +11,7 @@
 - `🏛️ Library of Eternal Knowledge` ([lore](<https://zeithalt.github.io//r/library_of_eternal_knowledge.html>))
 - `💤️ Oneiric Chamber` ([lore](<https://zeithalt.github.io//r/oneiric_chamber.html>))
 - `⛩️ Shrine of Zeith` ([lore](<https://zeithalt.github.io//r/shrine_of_zeith.html>))
+- `🌳 The Stillwater Glade` ([lore](<https://zeithalt.github.io//r/the_stillwater_glade.html>))
 ### Battles (3)
 - `Eon 359 - The Battle of Corrupted Forest` ([timeline](<https://zeithalt.github.io//t/#eon0359>))
 - `Eon 733 - The Frantic Battle over A'as Forest` ([timeline](<https://zeithalt.github.io//t/#eon0733>))

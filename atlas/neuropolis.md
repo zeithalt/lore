@@ -13,6 +13,7 @@
 - `📖 Cortexian Hall` ([lore](<https://zeithalt.github.io//r/cortexian_hall.html>))
 - `🗽 Headmaster Dino Saurex Statue` ([lore](<https://zeithalt.github.io//r/headmaster_dino_saurex_statue.html>))
 - `🌊 Kragg's Run Company` ([lore](<https://zeithalt.github.io//r/kraggs_run_company.html>))
+- `🧠 Resonance Chamber` ([lore](<https://zeithalt.github.io//r/resonance_chamber.html>))
 ### Battles (2)
 - `Eon 384 - The Siege of Neuropolis` ([timeline](<https://zeithalt.github.io//t/#eon0384>))
 - `Eon 462 - The 2nd Siege of Neuropolis` ([timeline](<https://zeithalt.github.io//t/#eon0462>))

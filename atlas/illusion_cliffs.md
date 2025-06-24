@@ -10,6 +10,8 @@
 - `🪞 Cave of Mirrors` ([lore](<https://zeithalt.github.io//r/cave_of_mirrors.html>))
 - `😎 Cannabliss Camp` ([lore](<https://zeithalt.github.io//r/cannabliss_camp.html>))
 - `🔥 Midnight Oil Burner` ([lore](<https://zeithalt.github.io//r/midnight_oil_burner.html>))
+- `🙏 Beacon of Hope` ([lore](<https://zeithalt.github.io//r/beacon_of_hope.html>))
+- `☯ Isle Of Solitude` ([lore](<https://zeithalt.github.io//r/isle_of_solitude.html>))
 ### Battles (2)
 - `Eon 969 - Loss of the Illusion Cliffs` ([timeline](<https://zeithalt.github.io//t/#eon0969>))
 - `Eon 988 - Recapture of Illusion Cliffs` ([timeline](<https://zeithalt.github.io//t/#eon0988>))
