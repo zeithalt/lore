@@ -11,6 +11,7 @@
 - `🌫️ Uncanny Valley` ([lore](<https://zeithalt.github.io//r/uncanny_valley.html>))
 - `⛏️ Aethelstone Mining Cave` ([lore](<https://zeithalt.github.io//r/aethelstone_mining_cave.html>))
 - `🦿 Big Mean Machine` ([lore](<https://zeithalt.github.io//r/big_mean_machine.html>))
+- `🔲 The Obelisk` ([lore](<https://zeithalt.github.io//r/the_obelisk.html>))
 ### Battles (3)
 - `Eon 479 - The Crawling Battle of Xyrclaox Watch` ([timeline](<https://zeithalt.github.io//t/#eon0479>))
 - `Eon 1131 - A Close Call in Xyrclaox Watch` ([timeline](<https://zeithalt.github.io//t/#eon1131>))
