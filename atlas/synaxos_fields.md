@@ -11,7 +11,7 @@
 - `🛖 House of Craftsmanship` ([lore](<https://zeithalt.github.io//r/house_of_craftsmanship.html>))
 - `🌀 Fractal Fields` ([lore](<https://zeithalt.github.io//r/fractal_fields.html>))
 - `🛝 Curiosity Playground` ([lore](<https://zeithalt.github.io//r/curiosity_playground.html>))
-### Battles (7)
+### Battles (8)
 - `Eon 298 - Battle of Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon0298>))
 - `Eon 508 - The Disaster of Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon0508>))
 - `Eon 526 - The Recapture of Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon0526>))
@@ -19,3 +19,4 @@
 - `Eon 778 - The 3rd Outbreak in Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon0778>))
 - `Eon 932 - The 4th Outbreak in Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon0932>))
 - `Eon 1262 - Invasion of Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon1262>))
+- `Eon 1343 - Sneezing Battle of Synaxos Fields` ([timeline](<https://zeithalt.github.io//t/#eon1343>))
