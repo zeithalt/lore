@@ -11,6 +11,7 @@
 - `🧼 Laundry N°131691` ([lore](<https://zeithalt.github.io//r/laundry_131691.html>))
 - `🏫 School of Spatial Magic` ([lore](<https://zeithalt.github.io//r/school_of_spatial_magic.html>))
 - `🦋 Azure Butterflies Continent` ([lore](<https://zeithalt.github.io//r/azure_butterflies_continent.html>))
+- `⚙️ The Sound of Gears Workshop` ([lore](<https://zeithalt.github.io//r/the_sound_of_gears_workshop.html>))
 ### Battles (2)
 - `Eon 330 - The Confusing Battle of Indigo Shore` ([timeline](<https://zeithalt.github.io//t/#eon0330>))
 - `Eon 687 - The Crash Landing on Indigo Shore` ([timeline](<https://zeithalt.github.io//t/#eon0687>))

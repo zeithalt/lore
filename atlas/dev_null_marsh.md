@@ -10,6 +10,7 @@
 - `🥩️ Brother's Meat Market` ([lore](<https://zeithalt.github.io//r/brothers_meat_market.html>))
 - `🪩 Nightclub "1234"` ([lore](<https://zeithalt.github.io//r/nightclub_1234.html>))
 - `⚔️ Fighters Guild, BB Branch` ([lore](<https://zeithalt.github.io//r/fighters_guild_bb_branch.html>))
+- `🛠️ Warehouse № 7` ([lore](<https://zeithalt.github.io//r/warehouse__7.html>))
 ### Battles (7)
 - `Eon 266 - Battle of Dev Null Marsh` ([timeline](<https://zeithalt.github.io//t/#eon0266>))
 - `Eon 321 - The Long Battle of Dev Null Marsh` ([timeline](<https://zeithalt.github.io//t/#eon0321>))
