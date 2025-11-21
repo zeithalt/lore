@@ -1,9 +1,9 @@
 # Welcome to Global Map!
 
 ### Hello, what is all this?
-_Global Map_ is the newest Influence game mode and also a part of the bigger _Factions Game_ that we've been playing on our [Discord server](<https://discord.com/channels/562910943848169472/1177313731223486504>) for more than 3 years.
+_Global Map_ is the newest Influence game mode and also a part of the bigger _Factions Game_ that we've been playing on our [Discord server](<https://discord.com/channels/562910943848169472/1177313731223486504>) for more than 2 years.
 
-It features a game of politics, roleplay, amazing community, rich lore and 3+ year history that you can also find [here](<https://zeithalt.github.io/t/#index>).
+It features a game of politics, roleplay, amazing community, rich lore and 2+ year history that you can also find [here](<https://zeithalt.github.io/t/#index>).
 
 ### How does it work together?
 *Factions Game* - part of the game that is played on our discord server.
