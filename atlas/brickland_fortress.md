@@ -10,7 +10,7 @@
 - `🌇 Timeless Town` ([lore](<https://zeithalt.github.io//r/timeless_town.html>))
 - `💃 The Bada Bing!` ([lore](<https://zeithalt.github.io//r/bada_bing.html>))
 - `🪦 The Grand Memorial` ([lore](<https://zeithalt.github.io//r/the_grand_memorial.html>))
-### Battles (7)
+### Battles (8)
 - `Eon 280 - Battle of Brickland Fortress` ([timeline](<https://zeithalt.github.io//t/#eon0280>))
 - `Eon 306 - The Boring Battle` ([timeline](<https://zeithalt.github.io//t/#eon0306>))
 - `Eon 413 - The Battle of Legoland Fortress` ([timeline](<https://zeithalt.github.io//t/#eon0413>))
@@ -18,3 +18,4 @@
 - `Eon 962 - Hijacking of the Brickland Fortress` ([timeline](<https://zeithalt.github.io//t/#eon0962>))
 - `Eon 1280 - Deltans Strike Back in Brickland Fortress` ([timeline](<https://zeithalt.github.io//t/#eon1280>))
 - `Eon 1365 - Backfired Battle of Brickland Fortress` ([timeline](<https://zeithalt.github.io//t/#eon1365>))
+- `Eon 1452 - Misguided Battle of Brickland Fortress` ([timeline](<https://zeithalt.github.io//t/#eon1452>))

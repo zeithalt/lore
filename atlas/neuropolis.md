@@ -1,4 +1,6 @@
 ## Neuropolis
+`⭐ Capital of MindTech Institute`
+ 
 > *The famed "house of wisdom and intelligence", the capital region of the Mindtech Institute holds the minds of many of the smartest people in the lands. Situated at the eastern-most part of the island, and is home to many of the government institutions.*  
 >  
 > [full lore entry](<https://zeithalt.github.io//r/neuropolis.html>)
