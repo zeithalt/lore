@@ -1,56 +1,56 @@
 # Welcome to Global Map!
 
 ### Hello, what is all this?
-_Global Map_ is the newest Influence game mode and also a part of the bigger _Factions Game_ that we've been playing on our [Discord server](<https://discord.com/channels/562910943848169472/1177313731223486504>) for more than 2 years.
+`⚔️ Global Map` is the newest Influence game mode and also a part of the bigger _Factions Game_ that we've been playing on our [Discord server](<https://discord.gg/CCSnKeNyMA>) for more than 3 years.
 
-It features a game of politics, roleplay, amazing community, rich lore and 2+ year history that you can also find [here](<https://zeithalt.github.io/t/#index>).
+It features a game of politics, roleplay, amazing community, rich lore and 3+ year history that you can also find [here](<https://zeithalt.github.io/t/#index>).
 
 ### How does it work together?
-*Factions Game* - part of the game that is played on our discord server.
+`🏰 Factions Game` - part of the game that is played on our discord server.
 
-*Global Map* - a new game mode available in the Beta version of Influence.
+`⚔️ Global Map` - a new game mode available in the Beta version of Influence.
 
 Both parts of the game share the same map and the same teams of players (aka 'factions').
 
-Political decisions such as alliances and attacks on other factions are made here on discord, while the actual battles are resolved by playing Influence on the Global Map.
+Political decisions such as alliances and attacks on other factions are made here on discord, while the actual battles are resolved by playing Influence on the `⚔️ Global Map`.
 
 ### Is the discord part necessary for participation?
 No, but you should give a try for exactly one reason - it's really fun!
 
 Also by joining us there and learning more about our lore you'll uncover a whole new world for yourself.
 
-A world which has it's own economy system, inventories, politics, lore stories and much more!
+A world which has its own economic system, inventories, politics, lore stories and much more!
 
 ### Should I care if I only want to play Influence?
 Up to you of course.
 
-I may suggest this perspective: you can view faction battles as fairly regular 2-day events that you can use for a change of pace compared to your normal Influence playtime.
+I may suggest this perspective: battles are essentially regular 2-day Influence events that you can use for a change of pace compared to your normal Influence playtime.
 
-Even if you choose to not be active on discord, you can help people here immensely by just dropping some IP on the Global Map.
+Even if you choose to not be active on discord, you can help people here immensely by just dropping some IP on the `⚔️ Global Map`.
 
 ### Okay, but how do I play exactly?
-First of all, join Influence Beta on Google Play. If you're reading this text from withing the game - you're already there!
+First, join **Influence Beta** on Google Play. If you're reading this text from within the game - you're already there!
 
-Then go to the Global Map and pick a team to play for.
+Then go to the `⚔️ Global Map` (globe icon on the start screen) and pick a team to play for.
 
-We have **2-day** "battles" every **7-10 days**.
+We have **2-day long** "battles" every **5-7 days**.
 
-During battles you **just play Influence** normally and check back on the Global Map to spend earned IP points.
+During battles you **simply play Influence** normally and check back on the `⚔️ Global Map` to spend earned IP points.
 
 By being active on discord you can also earn additional points to spend on the Map.
 
 ### Where do I start?
-Read on to learn the basics of the Global Map and then go back to the game to pick a team.
+Read on to learn the basics of the `⚔️ Global Map` and then go back to the game to pick a team.
 
-You can also ask around in [factions chat on Discord](<https://discord.com/channels/562910943848169472/995639554042249246>)!
+You can also ask around in [factions chat on Discord](<https://discord.gg/CCSnKeNyMA>)!
 
 If you're new Discord ping me (AlexxDev) in any channel saying "I'm broke" and I'll give you some in-game gold and items :)
 
-> Below is the short guide on how the Global Map works.
+> Below is the short guide on how the `⚔️ Global Map` game mode works.
 >
-> This only gives essential information for the _Factions Game_ (discord part) and focuses on the _Global Map_ (Influence) aspects.
+> This only gives essential information for the `🏰 Factions Game` (discord part) and focuses on the `⚔️ Global Map` (Influence) aspects.
 >
-> To learn more about _Factions Game_, visit our [Discord server](<https://discord.com/channels/562910943848169472/1177313731223486504>).
+> To learn more about `🏰 Factions Game`, visit our [Discord server](<https://discord.gg/CCSnKeNyMA>).
 
 ## Move order
 
@@ -98,7 +98,7 @@ Every faction's turn consists of four phases:
 
 - ### Battle time - 2 days
   - battle ends on timer;
-  - during this time, we play a Global Map battle in Influence;
+  - during this time, we play a `⚔️ Global Map` battle in Influence;
   - it has its own big set of rules, key ones are listed below.
 
 ## Preparation actions and units
@@ -109,8 +109,8 @@ Every faction's turn consists of four phases:
 
 These are discord game's features that allow factions to increase their base IP bonus in battles. 
 
-The extra points acquired via these are translated into Global Map bonuses:
-- these are shown as "discord-based bonuses" in the Global Map interface;
+The extra points acquired via these are translated into `⚔️ Global Map` bonuses:
+- these are shown as "discord-based bonuses" in the `⚔️ Global Map` interface;
 - they are effective during the whole battle and do not change;
 - for example, 30% bonus means all IP spending by that team has a 30% boost in this battle.
 
@@ -145,16 +145,16 @@ Only attacker and defender will get bonuses from these actions, other teams will
 > - DC progresses quickly and captures the majority of PS lands;
 > - But PS is in a pickle - they have only one tile to counter-attack if they quickly lose it all;
 > - In this situation, CI may open a new front against DC by invading Mt. Pickles from the west;
-> - CO too can join the battle directly; however, both MT and BB do not have a connection to the “play area” so their only options is supporting others according to global map diplomacy rules.  
+> - CO too can join the battle directly; however, both MT and BB do not have a connection to the “play area” so their only options is supporting others according to the diplomacy rules.  
 > 
 > ![example2](https://zeithalt.github.io/lore/i//global_map_example2.png)
 
-_Global Map_ battles happen in the context of the _Factions Game_ and within its fictional world called _Zeithalt Island_.
+`⚔️ Global Map` battles happen in the context of the `🏰 Factions Game` and within its fictional world called _Zeithalt Island_.
 
 To learn more about it, you might want to check out these links:
 - [Zeithalt Lore Guide](./guidebook.html) and [Mimbot Lore Database](<https://zeithalt.github.io/r/index.html>) can help you get acquainted with the lore;
-- [Zeithalt Timeline](<https://zeithalt.github.io/t/#index>) holds the 2-year history of the world; 
-- or you may ask questions on our [discord server](<https://discord.com/channels/562910943848169472/995639554042249246>).
+- [Zeithalt Timeline](<https://zeithalt.github.io/t/#index>) takes the account of the entire history of the world; 
+- or you may ask questions on our [discord server](<https://discord.gg/CCSnKeNyMA>).
 
 -----
-*This game is in the early alpha stages, a lot of the rules may change so this page should be treated as a draft of the rules - please ask questions and suggest changes [on discord](<https://discord.com/channels/562910943848169472/1284126907008417833>).*
+*This game is in the early alpha stages, a lot of the rules may change so this page should be treated as a draft of the rules - please ask questions and suggest changes [on discord](<https://discord.gg/CCSnKeNyMA>).*
