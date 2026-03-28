@@ -144,14 +144,17 @@
   padding-left: 1rem;
   color: var(--text-muted);
   font-style: italic;
+  transition: border-color 0.4s ease, color 0.4s ease;
 }
 
 .mimbot-content code {
   font-family: var(--font-mono);
   font-size: 0.85em;
   background: var(--meta-bg);
+  color: var(--text);
   padding: 0.15em 0.3em;
   border-radius: 4px;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .mimbot-content ul, .mimbot-content ol { margin-bottom: 1.5rem; }
@@ -164,13 +167,15 @@
   display: block;
   margin: 3.5rem auto;
   cursor: zoom-in;
+  transition: box-shadow 0.4s ease;
 }
 
 .mimbot-content hr {
   border: 0;
   height: 1px;
-  background: var(--border);
+  background-color: var(--border);
   margin: 3rem 0;
+  transition: background-color 0.4s ease;
 }
 
 /* Metadata */
@@ -231,6 +236,7 @@
   margin: 0 0.75rem;
   user-select: none;
   pointer-events: none;
+  transition: color 0.4s ease;
 }
 .mimbot-content .footer-link {
   display: inline-flex;
@@ -532,7 +538,7 @@
       localStorage.setItem('theme', theme);
     } catch(e) { /* Ignore if DOM Storage is disabled */ }
     
-    themeToggle.textContent = theme === 'midnight' ? 'Light mode' : 'Dark mode';
+    themeToggle.textContent = theme === 'midnight' ? 'Light' : 'Dark';
     themeToggle.setAttribute('aria-label', theme === 'midnight' ? 'Switch to Light Mode' : 'Switch to Dark Mode');
     themeToggle.setAttribute('title', theme === 'midnight' ? 'Switch to Light Mode' : 'Switch to Dark Mode');
   }
