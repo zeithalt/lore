@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Basic Title -->
+  <title>Direct Play | Mimbot</title>
+
+  <!-- ============================================== -->
+  <!-- SOCIAL MEDIA PREVIEW TAGS (OPEN GRAPH)         -->
+  <!-- ============================================== -->
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Inject page URL -->
+  <meta property="og:url" content="https://zeithalt.github.io/r/direct_play.html">
+  <meta property="og:type" content="article">
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Inject page title -->
+  <meta property="og:title" content="Direct Play">
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Inject first 1-2 sentences of text (Strip markdown/HTML tags!) -->
+  <meta property="og:description" content="Direct Play allows you to score more points in battle by playing 🔹 Influence games for specific tiles.">
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Inject URL of the first image on the page (Must be an absolute URL starting with https://) -->
+  <meta property="og:image" content="">
+
+  <!-- Twitter/Discord specific tags for large image previews -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Direct Play">
+  <meta name="twitter:description" content="Direct Play allows you to score more points in battle by playing 🔹 Influence games for specific tiles.">
+  <meta name="twitter:image" content="">
+
+  <!-- Optional: This sets the vertical colored line on the left side of Discord embeds -->
+  <meta name="theme-color" content="#933c24">
+
+  <!-- ============================================== -->
+  <!-- PRODUCTION CODE: KEEP EVERYTHING IN THE HEAD   -->
+  <!-- ============================================== -->
+
+  <!-- Load softer, more traditional fonts for that "Encyclopedia" feel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ========================================================= */
+/* 🦋 MIMBOT SHARED THEME BLOCK                              */
+/* ========================================================= */
+:root, [data-theme="parchment"] {
+  /* Parchment Light Theme */
+  --bg: #fdfaf2;
+  --text: #3e322b;
+  --text-muted: #7c6b5d;
+  --link: #933c24;
+  --link-hover: #b84a2b;
+  --meta-bg: #f4ecd8;
+  --border: #e6d8c3;
+  --shadow: 0 4px 15px rgba(62, 50, 43, 0.08);
+  --font-serif: 'Crimson Pro', Georgia, serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+[data-theme="midnight"] {
+  /* Midnight Dark Theme */
+  --bg: #0b1120;
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --link: #38bdf8;
+  --link-hover: #7dd3fc;
+  --meta-bg: #1e293b;
+  --border: #334155;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.mimbot-theme {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  line-height: 1.65;
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+/* Reading Area Constraint */
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  position: relative;
+}
+
+/* Scoped to elements within .mimbot-content so it doesn't break app UI like toolbars */
+.mimbot-content h1, .mimbot-content h2, .mimbot-content h3 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+  position: relative;
+}
+
+.mimbot-content .header-anchor {
+  display: inline-block;
+  margin-left: 0.4em;
+  font-size: 0.7em;
+  font-weight: 400;
+  color: var(--border);
+  text-decoration: none;
+  border-bottom: none !important;
+  opacity: 0;
+  transition: opacity 0.15s;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.mimbot-content h1:hover .header-anchor,
+.mimbot-content h2:hover .header-anchor,
+.mimbot-content h3:hover .header-anchor,
+.mimbot-content h4:hover .header-anchor {
+  opacity: 1;
+}
+
+.mimbot-content h1 { font-size: 2.5rem; margin-top: 0; margin-bottom: 0.5rem; }
+.mimbot-content h2 { font-size: 1.75rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+.mimbot-content p { margin-top: 0; margin-bottom: 1.5rem; }
+
+.mimbot-content a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--link);
+  font-weight: 600;
+  transition: color 0.2s, border-bottom-color 0.2s;
+}
+
+.mimbot-content a:hover {
+  color: var(--link-hover);
+  border-bottom: 1px solid var(--link-hover);
+}
+
+.mimbot-content blockquote {
+  border-left: 4px solid var(--border);
+  margin: 0 0 1.5rem 0;
+  padding-left: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.mimbot-content code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--meta-bg);
+  padding: 0.15em 0.3em;
+  border-radius: 4px;
+}
+
+.mimbot-content ul, .mimbot-content ol { margin-bottom: 1.5rem; }
+
+.mimbot-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: block;
+  margin: 3.5rem auto;
+  cursor: zoom-in;
+}
+
+.mimbot-content hr {
+  border: 0;
+  height: 1px;
+  background: var(--border);
+  margin: 3rem 0;
+}
+
+/* Metadata */
+.mimbot-content .metadata {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.mimbot-content .metadata p { margin: 0; }
+
+.mimbot-content .tag {
+  display: inline-block;
+  background: var(--meta-bg);
+  padding: 0.15rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
+
+/* Footer */
+.mimbot-content .site-footer {
+  font-family: var(--font-sans);
+  margin-top: 1.5rem;
+  padding: 0.75rem 0 0 0;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 0.75rem;
+}
+.mimbot-content .footer-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+}
+.mimbot-content .footer-item {
+  display: flex;
+  align-items: center;
+}
+.mimbot-content .footer-item + .footer-item::before {
+  content: "•";
+  color: var(--border);
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0 0.75rem;
+  user-select: none;
+  pointer-events: none;
+}
+.mimbot-content .footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1;
+  border: none !important;
+  color: var(--text-muted);
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s;
+  font-family: inherit;
+  vertical-align: middle;
+}
+.mimbot-content .footer-link:hover {
+  color: var(--text);
+}
+.mimbot-content .footer-link svg {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+/* ========================================================= */
+/* LIGHTBOX MODAL (Image Zoom capabilities for output pages) */
+/* ========================================================= */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(5px);
+  cursor: zoom-out;
+}
+
+.lightbox.active {
+  display: flex;
+  opacity: 1;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 4px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+  cursor: grab;
+  transition: transform 0.1s ease-out;
+  will-change: transform;
+}
+
+.lightbox img:active {
+  cursor: grabbing;
+}
+
+  </style>
+</head>
+<body class="mimbot-theme">
+
+<!-- ============================================== -->
+<!-- PRODUCTION CODE: PAGE CONTENT                  -->
+<!-- ============================================== -->
+<main class="container mimbot-content">
+  <article>
+
+
+    <div class="content">
+      <h2 id="direct-play">Direct Play<a class="header-anchor" href="#direct-play">#</a></h2>
+      <p><span class="tag">⚔️ Global Map</span></p>
+      <p><strong>Direct Play</strong> allows you to score more points in battle by playing <code>🔹 Influence</code> games for specific tiles.</p>
+      <p>You select a tile on the <code>⚔️ Global Map</code> and click <strong>Direct Play</strong> in the bottom panel.</p>
+      <p>This starts a normal Influence match with your default singleplayer settings.</p>
+      <p>After you win this match, your scored <code>🔹 IP</code> points are automatically applied to the selected tile.</p>
+      <p>These same IP points are also counted as usual when you enter the <code>⚔️ Global Map</code> next tile – effectively doubling your <code>🔹 IP</code> input.</p>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    
+
+    <ul class="footer-right">
+      <!-- PRE-UPLOAD SCRIPT TARGET: Inject this entire <li> ONLY if suggest edits is needed -->
+      <li class="footer-item">
+        <a href="https://alexxdev.eu/md_editor?file=../stories/direct_play.md" class="footer-link">
+          Edit
+        </a>
+      </li>
+
+      <li class="footer-item">
+        <button id="btn-share" class="footer-link" title="Copy to clipboard">Share</button>
+      </li>
+
+      <li class="footer-item">
+        <button id="theme-toggle" class="footer-link" aria-label="Toggle Theme" title="Toggle Theme">
+          <!-- Text will be injected by JS -->
+        </button>
+      </li>
+    </ul>
+  </footer>
+</main>
+
+<!-- Lightbox Modal for Image Zoom -->
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <img id="lightbox-img" src="" alt="Zoomed image view">
+</div>
+
+<script>
+  const themeToggle = document.getElementById('theme-toggle');
+  const root = document.documentElement;
+
+  // Determine initial theme (checking localStorage first, then system preference)
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  let savedTheme = null;
+  try {
+    savedTheme = localStorage.getItem('theme');
+  } catch(e) { /* Ignore if DOM Storage is disabled */ }
+  
+  let currentTheme = savedTheme ? savedTheme : (prefersDark ? 'midnight' : 'parchment');
+
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    try {
+      localStorage.setItem('theme', theme);
+    } catch(e) { /* Ignore if DOM Storage is disabled */ }
+    
+    themeToggle.textContent = theme === 'midnight' ? 'Light mode' : 'Dark mode';
+    themeToggle.setAttribute('aria-label', theme === 'midnight' ? 'Switch to Light Mode' : 'Switch to Dark Mode');
+    themeToggle.setAttribute('title', theme === 'midnight' ? 'Switch to Light Mode' : 'Switch to Dark Mode');
+  }
+
+  // Apply initially
+  applyTheme(currentTheme);
+
+  // Toggle on click
+  themeToggle.addEventListener('click', () => {
+    currentTheme = currentTheme === 'parchment' ? 'midnight' : 'parchment';
+    applyTheme(currentTheme);
+  });
+
+  // --- Image Lightbox Functionality ---
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+
+  // Find all images inside figures within the content area
+  const contentImages = document.querySelectorAll('.content figure img');
+
+  let currentScale = 1;
+  let isDragging = false;
+  let startX, startY;
+  let translateX = 0, translateY = 0;
+
+  function updateTransform() {
+    lightboxImg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${currentScale})`;
+  }
+
+  function resetImage() {
+    currentScale = 1;
+    translateX = 0;
+    translateY = 0;
+    lightboxImg.style.transition = 'transform 0.1s ease-out';
+    updateTransform();
+  }
+
+  contentImages.forEach(img => {
+    img.addEventListener('click', function() {
+      lightboxImg.src = this.src;
+      lightboxImg.alt = this.alt;
+      resetImage();
+      lightbox.classList.add('active');
+      document.body.classList.add('modal-open'); // Prevent background scrolling
+    });
+  });
+
+  // Close lightbox ONLY when clicking on the overlay (not the image itself)
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      lightbox.classList.remove('active');
+      document.body.classList.remove('modal-open');
+    }
+  });
+
+  // Zoom functionality (Wheel)
+  lightbox.addEventListener('wheel', (e) => {
+    e.preventDefault(); // Prevent page scroll
+    const zoomSensitivity = 0.1;
+    const delta = e.deltaY < 0 ? 1 : -1;
+    const zoomFactor = 1 + delta * zoomSensitivity;
+
+    let newScale = currentScale * zoomFactor;
+
+    // Limit scale bounds (allow deep zoom for large maps)
+    if (newScale < 0.2) newScale = 0.2;
+    if (newScale > 15) newScale = 15;
+
+    // Math to zoom in exactly toward the mouse pointer
+    const rect = lightbox.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left - rect.width / 2;
+    const mouseY = e.clientY - rect.top - rect.height / 2;
+
+    const scaleChange = newScale / currentScale;
+    translateX = mouseX - (mouseX - translateX) * scaleChange;
+    translateY = mouseY - (mouseY - translateY) * scaleChange;
+
+    currentScale = newScale;
+    lightboxImg.style.transition = 'transform 0.1s ease-out'; // Keep zoom smooth
+    updateTransform();
+  }, { passive: false });
+
+  // Pan functionality (Mouse Drag)
+  lightboxImg.addEventListener('mousedown', (e) => {
+    e.preventDefault();
+    isDragging = true;
+    lightboxImg.style.transition = 'none'; // Disable transition for instant 1:1 panning
+    startX = e.clientX - translateX;
+    startY = e.clientY - translateY;
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    translateX = e.clientX - startX;
+    translateY = e.clientY - startY;
+    updateTransform();
+  });
+
+  window.addEventListener('mouseup', () => {
+    if (isDragging) {
+      isDragging = false;
+      lightboxImg.style.transition = 'transform 0.1s ease-out'; // Restore transition
+    }
+  });
+
+  // Pan functionality (Touch Drag for Mobile)
+  lightboxImg.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 1) {
+      isDragging = true;
+      lightboxImg.style.transition = 'none';
+      startX = e.touches[0].clientX - translateX;
+      startY = e.touches[0].clientY - translateY;
+    }
+  });
+
+  window.addEventListener('touchmove', (e) => {
+    if (!isDragging || e.touches.length !== 1) return;
+    // Prevent default behavior (pull-to-refresh, scrolling) while dragging image
+    if (lightbox.classList.contains('active')) {
+      e.preventDefault();
+    }
+    translateX = e.touches[0].clientX - startX;
+    translateY = e.touches[0].clientY - startY;
+    updateTransform();
+  }, { passive: false });
+
+  window.addEventListener('touchend', () => {
+    isDragging = false;
+    lightboxImg.style.transition = 'transform 0.1s ease-out';
+  });
+
+  // --- Share Button Functionality ---
+  const btnShare = document.getElementById('btn-share');
+  if (btnShare) {
+    btnShare.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        const originalText = btnShare.textContent;
+        btnShare.textContent = 'Copied!';
+        setTimeout(() => {
+          btnShare.textContent = originalText;
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy link: ', err);
+      }
+    });
+  }
+</script>
+</body>
+</html>

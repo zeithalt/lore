@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Basic Title -->
+  <title>Welcome to Global Map! | Mimbot</title>
+
+  <!-- ============================================== -->
+  <!-- SOCIAL MEDIA PREVIEW TAGS (OPEN GRAPH)         -->
+  <!-- ============================================== -->
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Inject page URL -->
+  <meta property="og:url" content="https://zeithalt.github.io/r/welcome_to_global_map.html">
+  <meta property="og:type" content="article">
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Inject page title -->
+  <meta property="og:title" content="Welcome to Global Map!">
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Inject first 1-2 sentences of text (Strip markdown/HTML tags!) -->
+  <meta property="og:description" content="It features a game of politics, roleplay, amazing community, rich lore and 3+ year history that you can also find here.">
+
+  <!-- PRE-UPLOAD SCRIPT TARGET: Inject URL of the first image on the page (Must be an absolute URL starting with https://) -->
+  <meta property="og:image" content="">
+
+  <!-- Twitter/Discord specific tags for large image previews -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Welcome to Global Map!">
+  <meta name="twitter:description" content="It features a game of politics, roleplay, amazing community, rich lore and 3+ year history that you can also find here.">
+  <meta name="twitter:image" content="">
+
+  <!-- Optional: This sets the vertical colored line on the left side of Discord embeds -->
+  <meta name="theme-color" content="#933c24">
+
+  <!-- ============================================== -->
+  <!-- PRODUCTION CODE: KEEP EVERYTHING IN THE HEAD   -->
+  <!-- ============================================== -->
+
+  <!-- Load softer, more traditional fonts for that "Encyclopedia" feel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ========================================================= */
+/* 🦋 MIMBOT SHARED THEME BLOCK                              */
+/* ========================================================= */
+:root, [data-theme="parchment"] {
+  /* Parchment Light Theme */
+  --bg: #fdfaf2;
+  --text: #3e322b;
+  --text-muted: #7c6b5d;
+  --link: #933c24;
+  --link-hover: #b84a2b;
+  --meta-bg: #f4ecd8;
+  --border: #e6d8c3;
+  --shadow: 0 4px 15px rgba(62, 50, 43, 0.08);
+  --font-serif: 'Crimson Pro', Georgia, serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+[data-theme="midnight"] {
+  /* Midnight Dark Theme */
+  --bg: #0b1120;
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --link: #38bdf8;
+  --link-hover: #7dd3fc;
+  --meta-bg: #1e293b;
+  --border: #334155;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.mimbot-theme {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  line-height: 1.65;
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+/* Reading Area Constraint */
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  position: relative;
+}
+
+/* Scoped to elements within .mimbot-content so it doesn't break app UI like toolbars */
+.mimbot-content h1, .mimbot-content h2, .mimbot-content h3 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+  position: relative;
+}
+
+.mimbot-content .header-anchor {
+  display: inline-block;
+  margin-left: 0.4em;
+  font-size: 0.7em;
+  font-weight: 400;
+  color: var(--border);
+  text-decoration: none;
+  border-bottom: none !important;
+  opacity: 0;
+  transition: opacity 0.15s;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.mimbot-content h1:hover .header-anchor,
+.mimbot-content h2:hover .header-anchor,
+.mimbot-content h3:hover .header-anchor,
+.mimbot-content h4:hover .header-anchor {
+  opacity: 1;
+}
+
+.mimbot-content h1 { font-size: 2.5rem; margin-top: 0; margin-bottom: 0.5rem; }
+.mimbot-content h2 { font-size: 1.75rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+.mimbot-content p { margin-top: 0; margin-bottom: 1.5rem; }
+
+.mimbot-content a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--link);
+  font-weight: 600;
+  transition: color 0.2s, border-bottom-color 0.2s;
+}
+
+.mimbot-content a:hover {
+  color: var(--link-hover);
+  border-bottom: 1px solid var(--link-hover);
+}
+
+.mimbot-content blockquote {
+  border-left: 4px solid var(--border);
+  margin: 0 0 1.5rem 0;
+  padding-left: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.mimbot-content code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--meta-bg);
+  padding: 0.15em 0.3em;
+  border-radius: 4px;
+}
+
+.mimbot-content ul, .mimbot-content ol { margin-bottom: 1.5rem; }
+
+.mimbot-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: block;
+  margin: 3.5rem auto;
+  cursor: zoom-in;
+}
+
+.mimbot-content hr {
+  border: 0;
+  height: 1px;
+  background: var(--border);
+  margin: 3rem 0;
+}
+
+/* Metadata */
+.mimbot-content .metadata {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.mimbot-content .metadata p { margin: 0; }
+
+.mimbot-content .tag {
+  display: inline-block;
+  background: var(--meta-bg);
+  padding: 0.15rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
+
+/* Footer */
+.mimbot-content .site-footer {
+  font-family: var(--font-sans);
+  margin-top: 1.5rem;
+  padding: 0.75rem 0 0 0;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 0.75rem;
+}
+.mimbot-content .footer-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+}
+.mimbot-content .footer-item {
+  display: flex;
+  align-items: center;
+}
+.mimbot-content .footer-item + .footer-item::before {
+  content: "•";
+  color: var(--border);
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0 0.75rem;
+  user-select: none;
+  pointer-events: none;
+}
+.mimbot-content .footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1;
+  border: none !important;
+  color: var(--text-muted);
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s;
+  font-family: inherit;
+  vertical-align: middle;
+}
+.mimbot-content .footer-link:hover {
+  color: var(--text);
+}
+.mimbot-content .footer-link svg {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+/* ========================================================= */
+/* LIGHTBOX MODAL (Image Zoom capabilities for output pages) */
+/* ========================================================= */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(5px);
+  cursor: zoom-out;
+}
+
+.lightbox.active {
+  display: flex;
+  opacity: 1;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 4px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+  cursor: grab;
+  transition: transform 0.1s ease-out;
+  will-change: transform;
+}
+
+.lightbox img:active {
+  cursor: grabbing;
+}
+
+  </style>
+</head>
+<body class="mimbot-theme">
+
+<!-- ============================================== -->
+<!-- PRODUCTION CODE: PAGE CONTENT                  -->
+<!-- ============================================== -->
+<main class="container mimbot-content">
+  <article>
+
+
+    <div class="content">
+      <h1 id="welcome-to-global-map">Welcome to Global Map!<a class="header-anchor" href="#welcome-to-global-map">#</a></h1>
+      <h3 id="hello-what-is-all-this">Hello, what is all this?<a class="header-anchor" href="#hello-what-is-all-this">#</a></h3>
+      <p><span class="tag">⚔️ Global Map</span> is the newest Influence game mode and also a part of the bigger <em>Factions Game</em> that we've been playing on our <a href="https://discord.gg/CCSnKeNyMA">Discord server</a> for more than 3 years.</p>
+      <p>It features a game of politics, roleplay, amazing community, rich lore and 3+ year history that you can also find <a href="https://zeithalt.github.io/t/#index">here</a>.</p>
+      <h3 id="how-does-it-work-together">How does it work together?<a class="header-anchor" href="#how-does-it-work-together">#</a></h3>
+      <p><code>🏰 Factions Game</code> - part of the game that is played on our discord server.</p>
+      <p><code>⚔️ Global Map</code> - a new game mode available in the Beta version of Influence.</p>
+      <p>Both parts of the game share the same map and the same teams of players (aka 'factions').</p>
+      <p>Political decisions such as alliances and attacks on other factions are made here on discord, while the actual battles are resolved by playing Influence on the <code>⚔️ Global Map</code>.</p>
+      <h3 id="is-the-discord-part-necessary-for-participation">Is the discord part necessary for participation?<a class="header-anchor" href="#is-the-discord-part-necessary-for-participation">#</a></h3>
+      <p>No, but you should give a try for exactly one reason - it's really fun!</p>
+      <p>Also by joining us there and learning more about our lore you'll uncover a whole new world for yourself.</p>
+      <p>A world which has its own economic system, inventories, politics, lore stories and much more!</p>
+      <h3 id="should-i-care-if-i-only-want-to-play-influence">Should I care if I only want to play Influence?<a class="header-anchor" href="#should-i-care-if-i-only-want-to-play-influence">#</a></h3>
+      <p>Up to you of course.</p>
+      <p>I may suggest this perspective: battles are essentially regular 2-day Influence events that you can use for a change of pace compared to your normal Influence playtime.</p>
+      <p>Even if you choose to not be active on discord, you can help people here immensely by just dropping some IP on the <code>⚔️ Global Map</code>.</p>
+      <h3 id="okay-but-how-do-i-play-exactly">Okay, but how do I play exactly?<a class="header-anchor" href="#okay-but-how-do-i-play-exactly">#</a></h3>
+      <p>First, join <strong>Influence Beta</strong> on Google Play. If you're reading this text from within the game - you're already there!</p>
+      <p>Then go to the <code>⚔️ Global Map</code> (globe icon on the start screen) and pick a team to play for.</p>
+      <p>We have <strong>2-day long</strong> "battles" every <strong>5-7 days</strong>.</p>
+      <p>During battles you <strong>simply play Influence</strong> normally and check back on the <code>⚔️ Global Map</code> to spend earned IP points.</p>
+      <p>By being active on discord you can also earn additional points to spend on the Map.</p>
+      <h3 id="where-do-i-start">Where do I start?<a class="header-anchor" href="#where-do-i-start">#</a></h3>
+      <p>Read on to learn the basics of the <code>⚔️ Global Map</code> and then go back to the game to pick a team.</p>
+      <p>You can also ask around in <a href="https://discord.gg/CCSnKeNyMA">factions chat on Discord</a>!</p>
+      <p>If you're new Discord ping me (AlexxDev) in any channel saying "I'm broke" and I'll give you some in-game gold and items :)</p>
+      <blockquote>
+        <p>Below is the short guide on how the <code>⚔️ Global Map</code> game mode works.</p>
+        <p>This only gives essential information for the <code>🏰 Factions Game</code> (discord part) and focuses on the <code>⚔️ Global Map</code> (Influence) aspects.</p>
+        <p>To learn more about <code>🏰 Factions Game</code>, visit our <a href="https://discord.gg/CCSnKeNyMA">Discord server</a>.</p>
+      </blockquote>
+      <h2 id="move-order">Move order<a class="header-anchor" href="#move-order">#</a></h2>
+      <blockquote>
+        <p><em>Cycle</em> confusingly can refer to two things:</p>
+        <ul>
+          <li>generally - one full round of all factions' turns.</li>
+          <li>during a battle - one hour of real-time when the score is measured.</li>
+        </ul>
+      </blockquote>
+      <p>There are currently six factions on the Island:</p>
+      <ul>
+        <li><a href="https://zeithalt.github.io/r/band_of_brothers.html">Band of Brothers</a></li>
+        <li><a href="https://zeithalt.github.io/r/cloudy_operatives.html">Cloudy Operatives</a></li>
+        <li><a href="https://zeithalt.github.io/r/cybernetics_inc.html">Cybernetics Inc</a></li>
+        <li><a href="https://zeithalt.github.io/r/delta_collective.html">Delta Collective</a></li>
+        <li><a href="https://zeithalt.github.io/r/mindtech_institute.html">MindTech Institute</a></li>
+        <li><a href="https://zeithalt.github.io/r/protectores_silva.html">Protectores Silva</a></li>
+      </ul>
+      <p>The move order is determined by a random roll on our discord server at the beginning of each cycle.</p>
+      <p>There's also one more playable team: <a href="https://zeithalt.github.io/r/fighters_guild.html">Fighters Guild</a> to represent team-less people offering their services for gold, but they not do have a land on the map and do not get a turn in the move order.</p>
+      <h2 id="schedule">Schedule<a class="header-anchor" href="#schedule">#</a></h2>
+      <blockquote>
+        <p><em><a href="https://zeithalt.github.io/r/eon.html">Eon</a></em> - a unit of time equal to IRL one day, but flexible for lore purposes.</p>
+      </blockquote>
+      <blockquote>
+        <p><em><a href="https://zeithalt.github.io/rules/#rules_07_key_members">Key members</a></em> - most active members of the faction, who can make decisions on behalf of the faction.</p>
+      </blockquote>
+      <p>Every faction's turn consists of four phases:</p>
+      <h3 id="decision-up-to-2-days">Decision - up to 2 days<a class="header-anchor" href="#decision-up-to-2-days">#</a></h3>
+      <ul>
+        <li>it may end early when the decision is made;</li>
+        <li>during this time, the faction needs to <strong>confirm that they’re not skipping their turn</strong>;</li>
+        <li>if the deadline is missed - it’s an auto-skip, GM passes the turn to the next faction;</li>
+        <li>this decision is announced at the end of the current eon, after which either the <em>preparation</em> phase starts, or the faction skips their turn;</li>
+        <li>after the decision is made, the faction has until the end of the current eon to change their mind.</li>
+      </ul>
+      <h3 id="preparation-3-days">Preparation - 3 days<a class="header-anchor" href="#preparation-3-days">#</a></h3>
+      <ul>
+        <li>this is a mandatory wait period before the attack window opens;</li>
+        <li>during this time, the faction has to choose their attack target and prepare for the battle.</li>
+      </ul>
+      <h3 id="attack-window-up-to-3-days">Attack window - up to 3 days<a class="header-anchor" href="#attack-window-up-to-3-days">#</a></h3>
+      <ul>
+        <li>it may end early when the attack is initiated;</li>
+        <li>during this time, the faction may start their attack at any minute;</li>
+        <li>this can be done via discord's <code>/gm_start_attack</code> command by any key member;</li>
+        <li>a faction can only attack adjacent lands or one land over by the sea;,</li>
+        <li>if the deadline is missed - GM initiates the battle for them with a  disadvantage.</li>
+      </ul>
+      <h3 id="battle-time-2-days">Battle time - 2 days<a class="header-anchor" href="#battle-time-2-days">#</a></h3>
+      <ul>
+        <li>battle ends on timer;</li>
+        <li>during this time, we play a <code>⚔️ Global Map</code> battle in Influence;</li>
+        <li>it has its own big set of rules, key ones are listed below.</li>
+      </ul>
+      <h2 id="preparation-actions-and-units">Preparation actions and units<a class="header-anchor" href="#preparation-actions-and-units">#</a></h2>
+      <blockquote>
+        <p><a href="https://zeithalt.github.io/rules/#rules_14_faction_actions">Actions</a> - a set of in-lore events that factions can start to <em>influence</em> the game.</p>
+      </blockquote>
+      <blockquote>
+        <p><a href="https://zeithalt.github.io/rules/#rules_06_map_units">Map units</a> - various units that can be moved around the map and give bonuses to faction in battle.</p>
+      </blockquote>
+      <p>These are discord game's features that allow factions to increase their base IP bonus in battles.</p>
+      <p>The extra points acquired via these are translated into <code>⚔️ Global Map</code> bonuses:</p>
+      <ul>
+        <li>these are shown as "discord-based bonuses" in the <code>⚔️ Global Map</code> interface;</li>
+        <li>they are effective during the whole battle and do not change;</li>
+        <li>for example, 30% bonus means all IP spending by that team has a 30% boost in this battle.</li>
+      </ul>
+      <p>Only attacker and defender will get bonuses from these actions, other teams will have to do their surprise interventions in battles without them.</p>
+      <h2 id="key-global-map-rules">Key Global Map rules<a class="header-anchor" href="#key-global-map-rules">#</a></h2>
+      <ul>
+        <li>a battle lasts <strong>48</strong> full cycles;</li>
+        <li>one battle cycle lasts <strong>1h;</strong></li>
+        <li>an attack on a tile lasts <strong>5 cycles</strong>;</li>
+        <li>to capture or defend a tile, a team has to win <strong>3 or more cycle</strong> during an attack;</li>
+        <li>cooldown for attacking captured tiles again is <strong>5 cycles</strong>;</li>
+        <li>you can only attack adjacent or no coastal tiles;</li>
+        <li>for coastal tiles, you can attack one <em>land</em> over the sea;</li>
+        <li>there's a bonus for attacking early in the cycle;</li>
+        <li>attacking late in the cycle is penalized to prevent what's known as "late-sniping";</li>
+        <li>adjacent tilese of the same team provide 10% bonus to that team in nearby tile attacks;</li>
+        <li>we’re playing in the context of a <a href="https://zeithalt.github.io/t/#index">bigger map</a>, but the “play area” is only one region - this means tiles along the borders with other regions will always be possible to attack by that faction;</li>
+      </ul>
+      <blockquote>
+        <h3>Example 1</h3>
+        <ul>
+          <li>BB attacks CI in Cybertron Jungle;</li>
+          <li>All tiles outside Cybertron Jungle are not attackable and cannot change ownership;</li>
+          <li>Cybertron Jungle tiles along the green border have an outside connection to other CI lands, so CI can always attack them (except cooldown);</li>
+          <li>Cybertron Jungle tiles along the pink border have an outside connection to another BB land, so BB can always attack them (except cooldown).</li>
+          <li>Coastal tiles can be attacked by both factions.</li>
+        </ul>
+        <p><img src="https://zeithalt.github.io/lore/i//global_map_example1.png" alt="example1" loading="lazy"></p>
+      </blockquote>
+      <ul>
+        <li>the battle is in general 1 vs 1 (attacking vs defending faction);</li>
+        <li>however, if a faction has an outside connection to the “play area”, they can fight against both the attacker and the defender by declaring war on them during the battle;</li>
+      </ul>
+      <blockquote>
+        <h3>Example 2</h3>
+        <ul>
+          <li>DC attacks PS in Mt. Pickles</li>
+          <li>DC progresses quickly and captures the majority of PS lands;</li>
+          <li>But PS is in a pickle - they have only one tile to counter-attack if they quickly lose it all;</li>
+          <li>In this situation, CI may open a new front against DC by invading Mt. Pickles from the west;</li>
+          <li>CO too can join the battle directly; however, both MT and BB do not have a connection to the “play area” so their only options is supporting others according to the diplomacy rules.</li>
+        </ul>
+        <p><img src="https://zeithalt.github.io/lore/i//global_map_example2.png" alt="example2" loading="lazy"></p>
+      </blockquote>
+      <p><code>⚔️ Global Map</code> battles happen in the context of the <code>🏰 Factions Game</code> and within its fictional world called <em>Zeithalt Island</em>.</p>
+      <p>To learn more about it, you might want to check out these links:</p>
+      <ul>
+        <li><a href="./guidebook.html">Zeithalt Lore Guide</a> and <a href="https://zeithalt.github.io/r/index.html">Mimbot Lore Database</a> can help you get acquainted with the lore;</li>
+        <li><a href="https://zeithalt.github.io/t/#index">Zeithalt Timeline</a> takes the account of the entire history of the world;</li>
+        <li>or you may ask questions on our <a href="https://discord.gg/CCSnKeNyMA">discord server</a>.</li>
+      </ul>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    
+
+    <ul class="footer-right">
+      <!-- PRE-UPLOAD SCRIPT TARGET: Inject this entire <li> ONLY if suggest edits is needed -->
+      <li class="footer-item">
+        <a href="https://alexxdev.eu/md_editor?file=../stories/global_map.md" class="footer-link">
+          Edit
+        </a>
+      </li>
+
+      <li class="footer-item">
+        <button id="btn-share" class="footer-link" title="Copy to clipboard">Share</button>
+      </li>
+
+      <li class="footer-item">
+        <button id="theme-toggle" class="footer-link" aria-label="Toggle Theme" title="Toggle Theme">
+          <!-- Text will be injected by JS -->
+        </button>
+      </li>
+    </ul>
+  </footer>
+</main>
+
+<!-- Lightbox Modal for Image Zoom -->
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <img id="lightbox-img" src="" alt="Zoomed image view">
+</div>
+
+<script>
+  const themeToggle = document.getElementById('theme-toggle');
+  const root = document.documentElement;
+
+  // Determine initial theme (checking localStorage first, then system preference)
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  let savedTheme = null;
+  try {
+    savedTheme = localStorage.getItem('theme');
+  } catch(e) { /* Ignore if DOM Storage is disabled */ }
+  
+  let currentTheme = savedTheme ? savedTheme : (prefersDark ? 'midnight' : 'parchment');
+
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    try {
+      localStorage.setItem('theme', theme);
+    } catch(e) { /* Ignore if DOM Storage is disabled */ }
+    
+    themeToggle.textContent = theme === 'midnight' ? 'Light mode' : 'Dark mode';
+    themeToggle.setAttribute('aria-label', theme === 'midnight' ? 'Switch to Light Mode' : 'Switch to Dark Mode');
+    themeToggle.setAttribute('title', theme === 'midnight' ? 'Switch to Light Mode' : 'Switch to Dark Mode');
+  }
+
+  // Apply initially
+  applyTheme(currentTheme);
+
+  // Toggle on click
+  themeToggle.addEventListener('click', () => {
+    currentTheme = currentTheme === 'parchment' ? 'midnight' : 'parchment';
+    applyTheme(currentTheme);
+  });
+
+  // --- Image Lightbox Functionality ---
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+
+  // Find all images inside figures within the content area
+  const contentImages = document.querySelectorAll('.content figure img');
+
+  let currentScale = 1;
+  let isDragging = false;
+  let startX, startY;
+  let translateX = 0, translateY = 0;
+
+  function updateTransform() {
+    lightboxImg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${currentScale})`;
+  }
+
+  function resetImage() {
+    currentScale = 1;
+    translateX = 0;
+    translateY = 0;
+    lightboxImg.style.transition = 'transform 0.1s ease-out';
+    updateTransform();
+  }
+
+  contentImages.forEach(img => {
+    img.addEventListener('click', function() {
+      lightboxImg.src = this.src;
+      lightboxImg.alt = this.alt;
+      resetImage();
+      lightbox.classList.add('active');
+      document.body.classList.add('modal-open'); // Prevent background scrolling
+    });
+  });
+
+  // Close lightbox ONLY when clicking on the overlay (not the image itself)
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      lightbox.classList.remove('active');
+      document.body.classList.remove('modal-open');
+    }
+  });
+
+  // Zoom functionality (Wheel)
+  lightbox.addEventListener('wheel', (e) => {
+    e.preventDefault(); // Prevent page scroll
+    const zoomSensitivity = 0.1;
+    const delta = e.deltaY < 0 ? 1 : -1;
+    const zoomFactor = 1 + delta * zoomSensitivity;
+
+    let newScale = currentScale * zoomFactor;
+
+    // Limit scale bounds (allow deep zoom for large maps)
+    if (newScale < 0.2) newScale = 0.2;
+    if (newScale > 15) newScale = 15;
+
+    // Math to zoom in exactly toward the mouse pointer
+    const rect = lightbox.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left - rect.width / 2;
+    const mouseY = e.clientY - rect.top - rect.height / 2;
+
+    const scaleChange = newScale / currentScale;
+    translateX = mouseX - (mouseX - translateX) * scaleChange;
+    translateY = mouseY - (mouseY - translateY) * scaleChange;
+
+    currentScale = newScale;
+    lightboxImg.style.transition = 'transform 0.1s ease-out'; // Keep zoom smooth
+    updateTransform();
+  }, { passive: false });
+
+  // Pan functionality (Mouse Drag)
+  lightboxImg.addEventListener('mousedown', (e) => {
+    e.preventDefault();
+    isDragging = true;
+    lightboxImg.style.transition = 'none'; // Disable transition for instant 1:1 panning
+    startX = e.clientX - translateX;
+    startY = e.clientY - translateY;
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    translateX = e.clientX - startX;
+    translateY = e.clientY - startY;
+    updateTransform();
+  });
+
+  window.addEventListener('mouseup', () => {
+    if (isDragging) {
+      isDragging = false;
+      lightboxImg.style.transition = 'transform 0.1s ease-out'; // Restore transition
+    }
+  });
+
+  // Pan functionality (Touch Drag for Mobile)
+  lightboxImg.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 1) {
+      isDragging = true;
+      lightboxImg.style.transition = 'none';
+      startX = e.touches[0].clientX - translateX;
+      startY = e.touches[0].clientY - translateY;
+    }
+  });
+
+  window.addEventListener('touchmove', (e) => {
+    if (!isDragging || e.touches.length !== 1) return;
+    // Prevent default behavior (pull-to-refresh, scrolling) while dragging image
+    if (lightbox.classList.contains('active')) {
+      e.preventDefault();
+    }
+    translateX = e.touches[0].clientX - startX;
+    translateY = e.touches[0].clientY - startY;
+    updateTransform();
+  }, { passive: false });
+
+  window.addEventListener('touchend', () => {
+    isDragging = false;
+    lightboxImg.style.transition = 'transform 0.1s ease-out';
+  });
+
+  // --- Share Button Functionality ---
+  const btnShare = document.getElementById('btn-share');
+  if (btnShare) {
+    btnShare.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        const originalText = btnShare.textContent;
+        btnShare.textContent = 'Copied!';
+        setTimeout(() => {
+          btnShare.textContent = originalText;
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy link: ', err);
+      }
+    });
+  }
+</script>
+</body>
+</html>
