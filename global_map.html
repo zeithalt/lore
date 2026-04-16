@@ -302,6 +302,22 @@
   cursor: grabbing;
 }
 
+/* ========================================================= */
+/* MISSING LINK — internal links pointing to non-existent    */
+/* pages are styled distinctly so they're easy to spot       */
+/* ========================================================= */
+.mimbot-content a.missing-link {
+  color: var(--text-muted);
+  border-bottom: 1px dashed var(--text-muted);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.mimbot-content a.missing-link:hover {
+  color: var(--text-muted);
+  border-bottom: 1px dashed var(--text-muted);
+}
+
   </style>
 </head>
 <body class="mimbot-theme">
@@ -458,7 +474,7 @@
       <p><code>⚔️ Global Map</code> battles happen in the context of the <code>🏰 Factions Game</code> and within its fictional world called <em>Zeithalt Island</em>.</p>
       <p>To learn more about it, you might want to check out these links:</p>
       <ul>
-        <li><a href="./guidebook.html">Zeithalt Lore Guide</a> and <a href="https://zeithalt.github.io/r/index.html">Mimbot Lore Database</a> can help you get acquainted with the lore;</li>
+        <li><a href="./guidebook.md">Zeithalt Lore Guide</a> and <a href="https://zeithalt.github.io/r/index.html">Mimbot Lore Database</a> can help you get acquainted with the lore;</li>
         <li><a href="https://zeithalt.github.io/t/#index">Zeithalt Timeline</a> takes the account of the entire history of the world;</li>
         <li>or you may ask questions on our <a href="https://discord.gg/CCSnKeNyMA">discord server</a>.</li>
       </ul>
@@ -661,6 +677,18 @@
       }
     });
   }
+  // --- Missing Link: Hidden Editor Access (Ctrl+click or Alt+click) ---
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('a.missing-link');
+    if (!link) return;
+    e.preventDefault();
+    if (e.ctrlKey || e.altKey) {
+      const file = link.dataset.missingFile;
+      if (file) {
+        window.open(`https://alexxdev.eu/md_editor?file=${encodeURIComponent(file)}`, '_blank');
+      }
+    }
+  });
 </script>
 </body>
 </html>
